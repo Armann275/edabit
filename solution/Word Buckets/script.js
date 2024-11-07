@@ -18,12 +18,15 @@ function bucketize(phrase, n) {
             str += ` ${splitedArr[i + 1]}`
         }
         }else{
-            resultArr.push(str)
+            resultArr.push(str);
         }
     }   
-    return resultArr
+    return resultArr;
 }
 
 const res = bucketize("the mouse jumped over the cheese", 7)
 console.log(res);
+
+
+
 
